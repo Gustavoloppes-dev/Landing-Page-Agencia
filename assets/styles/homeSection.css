@@ -1,0 +1,138 @@
+.container--home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container--home--descricao {
+  width: 42%;
+}
+
+.home--descricao-titulo {
+  font-size: 70px;
+  font-family: var(--fonte-Sofadi);
+  font-weight: 900;
+}
+
+.home--descricao-texto {
+  font-size: 17px;
+  padding: 1rem 0 4.125rem;
+}
+
+.btn--container {
+  display: flex;
+  gap: 28px;
+}
+
+.btn--descricao {
+  border: none;
+  background-color: var(--branco);
+}
+
+.destaque {
+  border: none;
+  color: var(--branco);
+  background-color: var(--laranja);
+  padding: 12px 34px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: var(--fonte-Outfit);
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn--descricao--container {
+  display: flex;
+  align-items: center;
+  width: 50px;
+}
+
+/* .descricao--container--circle {
+    position: relative;
+} */
+
+.descricao--container--play {
+  position: relative;
+  left: -20px;
+}
+
+.btn--descricao--texto {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.container--home--img {
+  position: relative;
+}
+
+.home--img--lampada {
+  position: absolute;
+  top: 174px;
+  left: -42px;
+}
+
+.home--img--seta {
+  position: absolute;
+  top: 80px;
+  left: 370px;
+  transform: rotate(-14.84deg);
+}
+
+.home--img--box {
+  position: absolute;
+  z-index: -1;
+  top: 60px;
+  left: -77px;
+  width: 334px;
+  display: flex;
+  padding: 1rem;
+  gap: 12px;
+  border-radius: 12px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px; */
+  box-shadow: 0px 25px 40px -7px rgba(0, 0, 0, 0.2),
+    25px 0px 40px -7px rgba(0, 0, 0, 0.2),
+    -25px 0px 40px -7px rgba(0, 0, 0, 0.2);
+}
+
+.img--box--icone {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.img--box--descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+
+.img--box--texto {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.box--avaliacoes--texto {
+  font-size: 12px;
+}
+
+.box--reduzida {
+    position: absolute;
+    z-index: -1;
+    top: 452px;
+    left: -154px;
+    width: 334px;
+    display: flex;
+    padding: 1rem;
+    gap: 12px;
+    border-radius: 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px; */
+    box-shadow: 0px 25px 40px -7px rgba(0, 0, 0, 0.2),
+      25px 0px 40px -7px rgba(0, 0, 0, 0.2),
+      -25px 0px 40px -7px rgba(0, 0, 0, 0.2);
+}

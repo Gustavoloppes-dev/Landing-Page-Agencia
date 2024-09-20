@@ -1,0 +1,41 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 7.125rem;
+}
+
+.menu__lista {
+    display: flex;
+    gap: 2.5rem;
+    color: var(--black);
+}
+
+.menu__lista--item a {
+    color: var(--black);
+    font-size: 18px;
+}
+
+.container__auth {
+    display: flex;
+    gap: 22px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+}
+
+.container__auth--sign {
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 12px 30px;
+    border-radius: 10px;
+}

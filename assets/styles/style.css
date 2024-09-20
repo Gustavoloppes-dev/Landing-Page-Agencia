@@ -1,0 +1,29 @@
+@import url('header.css');
+@import url('homeSection.css');
+
+:root {
+    --font-Ageo: 'Ageo, sans-serif';
+    --fonte-Poppins: 'Poppins', sans-serif;
+    --fonte-Outfit: 'Outfit', sans-serif;
+    --fonte-Sofadi: 'Sofadi One', sans-serif;
+    --laranja: #FF6600;
+    --black-titulo: #0B1B35;
+    --black: #000000;
+    --branco: #FFFFFF;
+    --cinza: rgba(21,20,57,40%);
+    --roxo: #1E0E62;
+    --amarelo: #FEBB43;
+}
+
+body {
+	padding: 0 9.38%;
+    font-family: var(--fonte-Poppins);
+}
+
+main {
+    padding-top: 7.125rem;
+}
+
+a {
+    text-decoration: none;
+}
