@@ -1,5 +1,8 @@
 @import url('header.css');
 @import url('homeSection.css');
+@import url('servicos.css');
+@import url('propaganda.css');
+@import url('clientes.css');
 
 :root {
     --font-Ageo: 'Ageo, sans-serif';
@@ -13,6 +16,7 @@
     --cinza: rgba(21,20,57,40%);
     --roxo: #1E0E62;
     --amarelo: #FEBB43;
+    --cinza: #8A898E;
 }
 
 body {

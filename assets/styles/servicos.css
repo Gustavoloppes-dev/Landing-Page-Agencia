@@ -1,0 +1,58 @@
+.section--servicos {
+  padding-top: 5.063rem;
+}
+
+.subtitulo--servicos {
+  text-align: center;
+  color: var(--cinza);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.titulo--servicos {
+  text-align: center;
+  padding-top: 19px;
+  font-size: 52px;
+  font-weight: 700;
+  font-family: var(--fonte-Outfit);
+}
+
+.container--cards-servicos {
+  padding-top: 109px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card--servicos {
+  text-align: center;
+  padding: 30px 41px;
+  width: 352px;
+  border-radius: 28px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-sizing: border-box;
+}
+
+.card--servicos--icone {
+  width: 76.46px;
+  height: 76.46px;
+}
+
+.card--servicos--titulo {
+  padding-top: 41px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card--servicos--texto {
+  padding: 31px 0;
+  text-align: justify;
+
+}
+
+.card--servicos--btn {
+    border: none;
+    background-color: var(--laranja);
+    color: var(--branco);
+    border-radius: 10px;
+    padding: 12px 36px;
+}

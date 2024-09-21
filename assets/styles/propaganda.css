@@ -1,0 +1,36 @@
+.propaganda--container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-top: 11.313rem;
+}
+
+.propaganda--conteudo {
+    width: 28%;
+    text-align: left;
+    padding-top: 18px;
+}
+
+.propaganda--conteudo--titulo {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.propaganda--conteudo--texto {
+    font-weight: 500;
+    color: var(--cinza);
+    padding: 20px 0 112px;
+}
+
+.propaganda--conteudo--btn {
+    border: none;
+    font-weight: 500;
+    border: 1px solid var(--cinza);
+    padding: 13px 38px;
+    border-radius: 100px;
+    background-color: var(--branco);
+}
+
+.propaganda--conteudo--video {
+    border-radius: 10px;
+}

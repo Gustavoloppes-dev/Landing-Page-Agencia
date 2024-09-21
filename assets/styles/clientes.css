@@ -1,0 +1,47 @@
+.clientes--container {
+  padding-top: 9.125rem;
+}
+
+.clientes--subtitulo {
+  text-align: center;
+  color: var(--cinza);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.clientes--titulo {
+  text-align: center;
+  padding-top: 19px;
+  font-size: 52px;
+  font-weight: 700;
+  font-family: var(--fonte-Outfit);
+}
+
+.clientes--card--container {
+  padding: 6rem 6.25rem;
+  row-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.clientes--card {
+  display: flex;
+  padding: 36px 36px 23px;
+  width: 40%;
+  gap: 30px;
+}
+
+.clientes--card--img {
+    width: 70px;
+    height: 70px;
+}
+
+.clientes--card--comentario {
+    font-size: 17px;
+    height: 140px;
+}
+
+.clientes--card--cliente {
+    color: var(--cinza);
+}
