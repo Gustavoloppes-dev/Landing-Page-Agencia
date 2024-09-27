@@ -3,6 +3,9 @@
 @import url('servicos.css');
 @import url('propaganda.css');
 @import url('clientes.css');
+@import url('equipe.css');
+@import url('contato.css');
+@import url('rodape.css');
 
 :root {
     --font-Ageo: 'Ageo, sans-serif';
@@ -17,10 +20,11 @@
     --roxo: #1E0E62;
     --amarelo: #FEBB43;
     --cinza: #8A898E;
+    --border: #EBEAED;
 }
 
 body {
-	padding: 0 9.38%;
+	padding: 0 7.8%;
     font-family: var(--fonte-Poppins);
 }
 

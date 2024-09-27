@@ -1,0 +1,23 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 166px 0 32px;
+}
+
+.rodape--container--copy {
+    display: flex;
+    align-items: center;
+    color: var(--roxo);
+    gap: 90px;
+}
+
+.rodape--copy--img {
+    width: 111px;
+    height: 23px;
+}
+
+.rodape--container--lista {
+    display: flex;
+    gap: 39px;
+}

@@ -18,7 +18,7 @@
 }
 
 .clientes--card--container {
-  padding: 6rem 6.25rem;
+  padding: 6rem 6.25rem 0;
   row-gap: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +39,8 @@
 
 .clientes--card--comentario {
     font-size: 17px;
-    height: 140px;
+    height: 106px;
+    padding-bottom: 13px;
 }
 
 .clientes--card--cliente {
