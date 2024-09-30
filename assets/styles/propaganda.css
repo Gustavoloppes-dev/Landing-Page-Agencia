@@ -1,6 +1,6 @@
 .propaganda--container {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     padding-top: 11.313rem;
 }
@@ -14,6 +14,7 @@
 .propaganda--conteudo--titulo {
     font-size: 22px;
     font-weight: 500;
+    color: var(--roxo);
 }
 
 .propaganda--conteudo--texto {
@@ -29,8 +30,93 @@
     padding: 13px 38px;
     border-radius: 100px;
     background-color: var(--branco);
+    color: var(--roxo);
 }
 
 .propaganda--conteudo--video {
     border-radius: 10px;
+    width: 687.53px;
+    height: 385.98px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .propaganda--container {
+        padding-top: 8.313rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .propaganda--container {
+        padding-top: 6.313rem;
+        gap: .7rem;
+    }
+
+    .propaganda--conteudo--video {
+        width: 563.53px;
+        height: 315px;
+    }
+
+    .propaganda--conteudo {
+        padding-top: 0;
+    }
+
+    .propaganda--conteudo--texto {
+        padding: 24px 0px 72px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    .propaganda--container {
+        padding-top: 5rem;
+        gap: .7rem;
+    }
+
+    .propaganda--conteudo--video {
+        width: 463px;
+        height: 255px;
+    }
+
+    .propaganda--conteudo--titulo {
+        font-size: 16px;
+    }
+
+    .propaganda--conteudo--texto {
+        padding: 1rem 0;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    .propaganda--container {
+        padding-top: 4rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .propaganda--conteudo--video {
+        width: 97vw;
+        height: 260px;
+    }
+
+    .propaganda--conteudo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .propaganda--conteudo--titulo {
+        text-align: center;
+    }
+
+    .propaganda--conteudo--texto {
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .propaganda--conteudo--btn {
+        align-self: center;
+    }
+
+
 }

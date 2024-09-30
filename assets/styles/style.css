@@ -1,37 +1,87 @@
-@import url('header.css');
-@import url('homeSection.css');
-@import url('servicos.css');
-@import url('propaganda.css');
-@import url('clientes.css');
-@import url('equipe.css');
-@import url('contato.css');
-@import url('rodape.css');
+@import url("header.css");
+@import url("homeSection.css");
+@import url("servicos.css");
+@import url("propaganda.css");
+@import url("clientes.css");
+@import url("equipe.css");
+@import url("contato.css");
+@import url("rodape.css");
 
 :root {
-    --font-Ageo: 'Ageo, sans-serif';
-    --fonte-Poppins: 'Poppins', sans-serif;
-    --fonte-Outfit: 'Outfit', sans-serif;
-    --fonte-Sofadi: 'Sofadi One', sans-serif;
-    --laranja: #FF6600;
-    --black-titulo: #0B1B35;
-    --black: #000000;
-    --branco: #FFFFFF;
-    --cinza: rgba(21,20,57,40%);
-    --roxo: #1E0E62;
-    --amarelo: #FEBB43;
-    --cinza: #8A898E;
-    --border: #EBEAED;
+  --font-Ageo: "Ageo, sans-serif";
+  --fonte-Poppins: "Poppins", sans-serif;
+  --fonte-Outfit: "Outfit", sans-serif;
+  --fonte-Sofadi: "Sofadi One", sans-serif;
+  --laranja: #ff6600;
+  --black-titulo: #0b1b35;
+  --black: #000000;
+  --branco: #ffffff;
+  --cinza: rgba(21, 20, 57, 40%);
+  --roxo: #1e0e62;
+  --amarelo: #febb43;
+  --cinza: #8a898e;
+  --border: #ebeaed;
 }
 
 body {
-	padding: 0 7.8%;
-    font-family: var(--fonte-Poppins);
+  padding: 0 9.375%;
+  font-family: var(--fonte-Poppins);
 }
 
 main {
-    padding-top: 7.125rem;
+  padding-top: 7.125rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  body {
+    padding: 0 1.375%;
+    /* padding: 0 9.375%; */
+  }
+
+  main {
+    padding-top: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding: 0 1.375%;
+  }
+
+  main {
+    padding-top: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  body {
+    padding: 0 1.375%;
+  }
+
+  main {
+    padding-top: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 639px) {
+  body {
+    padding: 0 1.375%;
+  }
+
+  main {
+    padding-top: 3.125rem;
+  }
+}
+
+/* 'sd': {'min': '320px', 'max': '479px'},
+        'mb': {'min': '480px', 'max': '639px'},
+        'sm': {'min': '640px', 'max': '767px'},
+        'md': {'min': '768px', 'max': '1023px'},
+        'lg': {'min': '1024px', 'max': '1279px'},
+        'xl': {'min': '1280px', 'max': '1535px'},
+        '2xl': {'min': '1536px', 'max': '1919px'},
+        '3xl': {'min': '1920px'} */

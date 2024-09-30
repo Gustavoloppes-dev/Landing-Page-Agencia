@@ -46,3 +46,64 @@
 .clientes--card--cliente {
     color: var(--cinza);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .clientes--container {
+    padding-top: 5rem;
+  }
+
+  .clientes--card--container {
+    padding: 1.5rem 3rem;
+  }
+
+  .clientes--card {
+    gap: 16px;
+    padding: 1.3rem 1.3rem 1rem;
+  }
+
+  .clientes--card--comentario {
+    font-size: 14px;
+    height: 125px;
+  }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .clientes--container {
+    padding-top: 5rem;
+  }
+
+  .clientes--card--container {
+    padding: 1rem 1.5rem;
+  }
+
+  .clientes--card {
+    gap: .5rem;
+    padding: .8rem 1rem .5rem;
+  }
+
+  .clientes--card--comentario {
+    font-size: 14px;
+    height: 153px;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  .clientes--container {
+    padding-top: 4rem;
+  }
+
+  .clientes--card--container {
+    padding: 1rem 1.5rem;
+  }
+
+  .clientes--card {
+    width: 50vw;
+  }
+
+  .clientes--card--comentario {
+    height: 167px;
+    font-size: 14px;
+  }
+}

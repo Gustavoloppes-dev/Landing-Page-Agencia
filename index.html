@@ -12,6 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofadi+One&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="cabecalho">
@@ -33,10 +38,9 @@
       <!-- Section Home -->
 
       <section class="container--home">
-        <div class="container--home--descricao">
-          <h2 class="home--descricao-titulo">
-            Nós impulsionamos o crescimento da sua Startup
-          </h2>
+        <div class="container--home--descricao" data-aos="fade-right">
+          <h2 class="home--descricao-titulo" id="animated-text"></h2>
+
           <p class="home--descricao-texto">
             Nosso objetivo é estar no topo do coração da indústria de serviços
             de criatividade como um criador digital.
@@ -56,7 +60,7 @@
             </button>
           </div>
         </div>
-        <div class="container--home--img">
+        <div class="container--home--img" data-aos="fade-left">
           <img
             class="home--img--imagem"
             src="assets/image/joyful-guy-texting-message-smartphone2 1.png"
@@ -115,11 +119,11 @@
 
       <!-- Section Serviços -->
 
-      <section class="section--servicos">
+      <section class="section--servicos" id="servico-section">
         <h3 class="subtitulo--servicos">Serviços</h3>
         <h2 class="titulo--servicos">Nossa Visão e Nosso Objetivo</h2>
         <div class="container--cards-servicos">
-          <article class="card--servicos">
+          <article class="card--servicos card1">
             <img
               class="card--servicos--icone"
               src="assets/image/Activity.svg"
@@ -134,7 +138,7 @@
             </p>
             <button class="card--servicos--btn">Saber Mais</button>
           </article>
-          <article class="card--servicos">
+          <article class="card--servicos card2">
             <img
               class="card--servicos--icone"
               src="assets/image/Video.svg"
@@ -149,7 +153,7 @@
             </p>
             <button class="card--servicos--btn">Saber Mais</button>
           </article>
-          <article class="card--servicos">
+          <article class="card--servicos card3">
             <img
               class="card--servicos--icone"
               src="assets/image/Chart.svg"
@@ -175,22 +179,16 @@
             Muitos blocos e componentes
           </h3>
           <p class="propaganda--conteudo--texto">
-            O Startup Framework contém componentes e blocos complexos que podem
-            ser facilmente integrados em quase qualquer design.
+            Nossa plataforma oferece uma variedade de componentes e blocos
+            avançados que se integram facilmente a qualquer design.
           </p>
           <button class="propaganda--conteudo--btn">Explorar</button>
         </div>
-        <iframe
+        <img
+          src="assets/image/Video Player.svg"
           class="propaganda--conteudo--video"
-          width="687"
-          height="385"
-          src="https://www.youtube.com/embed/5ouVWbW7SsM?si=2ch5iGy8EQjNiyOk?modestbranding=1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+          alt=""
+        />
       </section>
 
       <!-- Section Clientes -->
@@ -200,7 +198,7 @@
         <h2 class="clientes--titulo">O que os clientes dizem sobre nós</h2>
 
         <div class="clientes--card--container">
-          <article class="clientes--card">
+          <article class="clientes--card" data-aos="fade-down-right">
             <img
               src="assets/image/Rayhan.png"
               alt=""
@@ -215,7 +213,7 @@
               <p class="clientes--card--cliente">Rayhan Curran</p>
             </div>
           </article>
-          <article class="clientes--card">
+          <article class="clientes--card" data-aos="fade-down-left">
             <img
               src="assets/image/Kayley.png"
               alt=""
@@ -230,7 +228,7 @@
               <p class="clientes--card--cliente">Kayley Frame</p>
             </div>
           </article>
-          <article class="clientes--card">
+          <article class="clientes--card" data-aos="fade-up-right">
             <img
               src="assets/image/Gene.png"
               alt=""
@@ -243,7 +241,7 @@
               <p class="clientes--card--cliente">Gene Whitfield</p>
             </div>
           </article>
-          <article class="clientes--card">
+          <article class="clientes--card" data-aos="fade-up-left">
             <img
               src="assets/image/Allan.png"
               alt=""
@@ -264,7 +262,7 @@
         <h3 class="equipe--subtitulo">Nossa equipe</h3>
         <h2 class="equipe--titulo">Conheça a equipe</h2>
         <div class="container--cards--equipe">
-          <article class="card--equipe">
+          <article class="card--equipe" data-aos="flip-left">
             <img
               src="assets/image/Vanessa.png"
               alt=""
@@ -294,7 +292,7 @@
               </ul>
             </div>
           </article>
-          <article class="card--equipe">
+          <article class="card--equipe" data-aos="flip-left">
             <img
               src="assets/image/Mason.png"
               alt=""
@@ -324,7 +322,7 @@
               </ul>
             </div>
           </article>
-          <article class="card--equipe">
+          <article class="card--equipe" data-aos="flip-left">
             <img src="assets/image/Irea.png" alt="" class="card--equipe--img" />
             <div class="container--texto--equipe">
               <p class="card--equipe--nome">Irea Evans</p>
@@ -357,11 +355,7 @@
         <h3 class="contato--subtitulo">Entre em Contato</h3>
         <h2 class="contato--titulo">Assine nossa newsletter</h2>
         <div class="container--newsletter">
-          <img
-            src="/assets/image/Frame.svg"
-            alt=""
-            class="newsletter--img"
-          />
+          <img src="/assets/image/Frame.svg" alt="" class="newsletter--img" />
           <div class="newsletter--conteudo--contato">
             <p class="newsletter--texto">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -383,20 +377,38 @@
     </main>
     <footer class="rodape">
       <div class="rodape--container--copy">
-        <img class="rodape--copy--img" src="assets/image/Logo.png" alt="">
-        <span class="rodape--copy--info">© 2024 Desenvolvido por Gustavo Lopes.</span>
+        <img class="rodape--copy--img" src="assets/image/Logo.png" alt="" />
+        <span class="rodape--copy--info"
+          >© 2024 Desenvolvido por Gustavo Lopes.</span
+        >
       </div>
       <ul class="rodape--container--lista">
-        <li class="rodape--lista--item"><a href="" class="rodape--lista-link">Portfolio</a></li>
-        <li class="rodape--lista--item"><a href="" class="rodape--lista-link">Como funciona</a></li>
-        <li class="rodape--lista--item"><a href="" class="rodape--lista-link">Preços</a></li>
-        <li class="rodape--lista--item"><a href="" class="rodape--lista-link">Sobre</a></li>
-        <li class="rodape--lista--item"><a href="" class="rodape--lista-link">Login</a></li>
+        <li class="rodape--lista--item">
+          <a href="" class="rodape--lista-link">Portfolio</a>
+        </li>
+        <li class="rodape--lista--item">
+          <a href="" class="rodape--lista-link">Como funciona</a>
+        </li>
+        <li class="rodape--lista--item">
+          <a href="" class="rodape--lista-link">Preços</a>
+        </li>
+        <li class="rodape--lista--item">
+          <a href="" class="rodape--lista-link">Sobre</a>
+        </li>
+        <li class="rodape--lista--item">
+          <a href="" class="rodape--lista-link">Login</a>
+        </li>
       </ul>
     </footer>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script
     src="https://kit.fontawesome.com/8d1bed1a64.js"
     crossorigin="anonymous"
   ></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+  <script src="assets/js/index.js"></script>
 </html>
