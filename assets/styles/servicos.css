@@ -173,3 +173,25 @@
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .section--servicos {
+    padding-top: 5rem;
+  }
+
+  .titulo--servicos {
+    font-size: 32px;
+  }
+
+  .container--cards-servicos {
+    padding-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .card--servicos {
+    max-width: 80%;
+    padding: 16px 24px;
+  }
+
+}

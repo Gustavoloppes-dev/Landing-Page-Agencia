@@ -107,3 +107,30 @@
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .clientes--container {
+    padding: 5rem .5rem;
+  }
+
+  .clientes--titulo {
+    font-size: 32px;
+  }
+
+  .clientes--card--container {
+    padding: 1rem;
+  }
+
+  .clientes--card {
+    padding: 1rem 1rem;
+    width: 100%;
+  }
+
+  .clientes--card--comentario {
+    height: auto;
+  }
+
+  .clientes--card--comentario {
+    font-size: 14px;
+  }
+}

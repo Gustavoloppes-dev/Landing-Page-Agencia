@@ -166,3 +166,44 @@
     max-width: 294px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .equipe--container {
+    padding-top: 5rem;
+  }
+
+  .container--cards--equipe {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+
+  .equipe--titulo {
+    font-size: 32px;
+  }
+
+  .card--equipe {
+    width: 80%;
+    padding-top: 2rem;
+    height: auto;
+  }
+
+  .card--equipe--nome {
+    padding: 1rem 0 .8rem;
+  }
+
+  .card--equipe--social {
+    width: 80%;
+  }
+
+  .card--equipe--funcao {
+    padding-bottom: 1rem;
+  }
+
+  .equipe--social--container {
+    width: 80%;
+  }
+
+
+}

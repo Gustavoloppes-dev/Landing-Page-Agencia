@@ -205,9 +205,9 @@
   }
 
   .home--descricao-texto {
-     padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
-  
+
   .home--img--imagem {
     width: 350px;
   }
@@ -265,9 +265,9 @@
   }
 
   .home--descricao-texto {
-     padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
-  
+
   .home--img--imagem {
     width: 300px;
   }
@@ -309,9 +309,9 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 639px) {
+@media screen and (min-width: 480px) and (max-width: 639px) {
   .container--home {
-    flex-direction: column; 
+    flex-direction: column;
     gap: 2rem;
   }
 
@@ -325,9 +325,9 @@
   }
 
   .home--descricao-texto {
-     padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
-  
+
   .home--img--imagem {
     width: 300px;
   }
@@ -375,5 +375,89 @@
   .box--reduzida {
     top: 240px;
     left: -164px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .container--home {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .container--home--descricao {
+    width: 100%;
+  }
+
+  .home--descricao-titulo {
+    font-size: 36px;
+    height: 112px;
+  }
+
+  .home--descricao-texto {
+    padding-bottom: 1rem;
+  }
+
+  .home--img--imagem {
+    /* width: 300px; */
+    width: 70%;
+    align-self: flex-end;
+    padding-left: 30%;
+  }
+
+  .btn--container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .container--home--img {
+    align-self: flex-end;
+    width: 100%;
+    
+  }
+
+  .destaque {
+    padding: 8px 16px;
+    font-size: 14px;
+    /* width: 50%; */
+    white-space: nowrap;
+  }
+
+  .video {
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .home--img--lampada {
+    display: none;
+  }
+
+  .home--img--seta {
+    width: 80px;
+    left: 234px;
+    top: 36px;
+  }
+
+  .home--img--box {
+    /* display: none; */
+    top: 34px;
+    left: 12px;
+    padding: 8px;
+    gap: 8px;
+    width: 148.75px;
+    z-index: 10;
+  }
+
+  .img--box--icone {
+    display: none;
+  }
+
+  .img--box--avaliacoes {
+    display: none;
+  }
+
+  .box--reduzida {
+    top: 142px;
+    left: 2px;
+    width: 120px;
   }
 }

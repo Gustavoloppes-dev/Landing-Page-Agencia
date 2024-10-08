@@ -1,9 +1,7 @@
 AOS.init();
 
-
 gsap.registerPlugin(TextPlugin);
 
-// const textos = ["Nós impulsionamos o crescimento da sua Startup"]
 const textos = ["Levamos sua Startup ao próximo nível"]
 
 let tlMaster = gsap.timeline();
@@ -29,18 +27,20 @@ gsap.to('.card--servicos', {
   }
 });
 
-// gsap.registerPlugin(TextPlugin);
+const menuIcone = document.querySelector('#icone--menu--mobile');
+const menuContainer = document.querySelector(".menu--mobile")
+let ativo = false;
 
-// const textos = ["Nós impulsionamos o crescimento da sua Startup", "Nós impulsionamos o crescimento da sua Startup2", "Nós impulsionamos o crescimento da sua Startup3"];
-
-// let tlMaster = gsap.timeline({repeat: -1});
-
-// textos.forEach((texto) => {
-//     let tltext = gsap.timeline({repeat: 1, yoyo: true});
-//     tltext.to('#animated-text', {duration: 2, text: texto});
-//     tlMaster.add(tltext);
-// });
-
-// Animação do cursor
-// gsap.to('#cursor', {opacity: 0, repeat: -1, yoyo: true, duration: 0.5, ease: "power2.inOut"});
-
+menuIcone.addEventListener("click", (e) => {
+  if(!ativo) {
+    menuContainer.style.display = "block";
+    menuIcone.style.padding = "8px";
+    menuIcone.style.backgroundColor = '#d3d3d3';
+    menuIcone.style.borderRadius = '10px';
+    ativo = true;
+  } else {
+    menuContainer.style.display = "none";
+    menuIcone.style.backgroundColor = '#FFF';
+    ativo = false
+  }
+})
